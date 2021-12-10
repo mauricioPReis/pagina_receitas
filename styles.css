@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EAEAEA;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 16px;
+}
+
+main{
+  color: #39391B;
+  background: #FFFFFF;
+  width: 1fr;
+  height: 1fr;
+  /* deixa a bordar do conteudo principal aredondados */
+  border-radius: 10px;
+  /* top left booton rigt */
+  margin: 25px 50px 25px 50px;
+}
+
+.box2, .box3 {
+  background: #FFFFFF;
+
+  line-height: 2;
+  /* Posicionamento do itens das listas */
+  list-style-position: inside;
+  /* top left booton rigt */
+  padding: 15px 20px 15px 20px;
+}
+
+.box4 {
+  line-height: 1.7;
+  padding: 15px 20px 15px 20px;
+}
+
+/* posicisionamento da imagem */
+.recipe-image{
+  text-align: right;
+  font-size: 12px;
+  color: #8F8F8F;
+
+  padding: 0 15px 0 15px;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+
+}
+
+h1 {
+  font-size: 28px;
+  color: #1B1B1B;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 20px;
+  color: #1B1B1B;
+  text-align: center;
+
+  /* tranformando todas a letras em mausculas */
+  text-transform: uppercase;
+}
+
+footer{
+  color: #8F8F8F;
+  font-size: 12px;
+
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
